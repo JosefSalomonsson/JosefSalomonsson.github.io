@@ -1,0 +1,15 @@
+/* TEAM */
+
+novice programmer: josef salomonsson
+
+Site: js223ux@student.lnu.se
+Twitter: @josefsalomonsson
+Location: Kiruna, Sweden
+
+
+
+
+/* SITE */
+Last update: 2015/11/17
+Standards: HTML5, CSS3
+Software:Webstorm, vagrant, virtualbox, sass.

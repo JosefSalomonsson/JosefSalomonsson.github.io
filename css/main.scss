@@ -15,15 +15,21 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
+$brand-color:      #0E0F0E; //2a7ae2
+$hovercollor:      #5AAD34;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
+$footerhight: 110px;
+$footercolor: #4FC982;
+$imgwidth: 100px;
 
+$navpadl:            50px;
+
+$navpadr:            10px;
 
 
 // Using media queries with like this:

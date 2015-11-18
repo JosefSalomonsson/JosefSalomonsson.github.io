@@ -21,6 +21,10 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    background-image: url("/images/paper.jpg");
+    overflow:auto;
+
+
 }
 
 
@@ -71,9 +75,17 @@ li {
     > ul,
     > ol {
          margin-bottom: 0;
+
     }
 }
 
+nav {
+    >li{float: left;
+        list-style-type: none;
+        padding-right: 30px;
+        display: inline;
+    }
+}
 
 
 /**
@@ -83,7 +95,52 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+#mainh1{
+    font-weight: 500;
+}
+#imgme{
+    width: $imgwidth;
+    padding-left: 0;
+}
 
+#side{
+    >img{
+        width: $imgwidth;
+    }
+    display: inline;
+    padding-left: $navpadl;
+    padding-right: $navpadr;
+    margin-top: 10px;
+    float: left;
+    list-style-type: none;
+
+    //background-color: bisque;
+
+
+#cont{
+        padding-left: 30px;
+    }
+}
+
+
+ul li{
+
+}
+#fltr{
+    float: right;
+}
+
+footer{
+    float:right;
+    >li{padding-right: 100px}
+
+    bottom: 0;
+    background-color: $footercolor;
+    height: $footerhight;
+    position: relative;
+    width: 100%;
+
+}
 
 /**
  * Links
@@ -97,8 +154,8 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $hovercollor;
+        text-decoration: none;
     }
 }
 
@@ -160,6 +217,12 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    background-color: bisque;
+    >div{float: left;
+
+
+    }
+
     @extend %clearfix;
 
     @include media-query($on-laptop) {

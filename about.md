@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About
+title: Om mig
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Mitt namn är josef. 
+Jag studerar för nuvarandet UDM programmet på distans. 
+På denna blog kommer jag sätta upgifter och examinationer till klientbaserad webbteknik.
+Mina hobbies är att läsa böcker och manga samt videospel och brädspel. 
+Jag målar också warhammer 40 000 figurer ibland. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+ 
